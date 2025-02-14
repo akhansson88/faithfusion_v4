@@ -1,0 +1,69 @@
+@import './variables.css';
+
+.site-footer {
+  background: var(--primary);
+  color: var(--light);
+  padding: 4rem 0;
+  margin-top: 4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-section {
+  margin-bottom: 1rem;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--light);
+  border-bottom: 2px solid var(--secondary);
+  padding-bottom: 0.5rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 0.7rem;
+}
+
+.footer-section a {
+  color: var(--light);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: var(--secondary);
+}
+
+.footer-section p {
+  margin-bottom: 0.7rem;
+  opacity: 0.8;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid var(--secondary);
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}

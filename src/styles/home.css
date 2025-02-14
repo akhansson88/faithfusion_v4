@@ -1,0 +1,41 @@
+@import './variables.css';
+
+.hero {
+  background: var(--gradient);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.feature-card {
+  background: var(--light);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.feature-card h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,42 @@
+@import './variables.css';
+
+.button {
+  background-color: var(--accent);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.auth-button {
+  background-color: var(--accent);
+  color: white !important;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  margin-left: 1rem;
+}
+
+.auth-button:hover {
+  transform: translateY(-2px);
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.secondary-button:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}

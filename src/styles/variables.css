@@ -1,0 +1,10 @@
+:root {
+  --primary: #7c5295;
+  --secondary: #f8d7ff;
+  --accent: #ff6b6b;
+  --text: #2c3e50;
+  --light: #ffffff;
+  --background: #faf7fd;
+  --shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  --gradient: linear-gradient(135deg, var(--primary), #9b6bb6);
+}
